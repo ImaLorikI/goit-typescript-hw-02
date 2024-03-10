@@ -8,8 +8,8 @@ type Page = {
   accounts: string[];
   status: "open" | "close";
   details?: {
-    createAt: string | number | Date;
-    updateAt: string | number | Date;
+    createAt: Date;
+    updateAt: Date;
   };
 };
 const page1: Page = {
